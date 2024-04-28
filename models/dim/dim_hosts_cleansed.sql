@@ -1,6 +1,6 @@
 {{
   config(
-    materialized = 'view',
+    materialized = 'view'
     )
 }}
 with src_hosts as (
@@ -13,4 +13,3 @@ select
     created_at,
     updated_at
 from src_hosts 
-    
